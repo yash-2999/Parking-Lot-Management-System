@@ -57,28 +57,33 @@ The system is designed to be **easily extensible** — new vehicle types or pric
 
 ## 📂 Project Structure
 
+
+
+```text
 src/
 ├── model/
-│ ├── Vehicle.java
-│ ├── Car.java
-│ ├── Bike.java
-│ ├── Truck.java
-│ ├── Slot.java
-│ └── Ticket.java
+│   ├── Vehicle.java
+│   ├── Car.java
+│   ├── Bike.java
+│   ├── Truck.java
+│   ├── Slot.java
+│   └── Ticket.java
 │
 ├── service/
-│ └── ParkingLot.java
+│   └── ParkingLot.java
 │
 ├── strategy/
-│ ├── ParkingFeeStrategy.java
-│ └── DefaultFeeStrategy.java
+│   ├── ParkingFeeStrategy.java
+│   └── DefaultFeeStrategy.java
 │
 ├── exception/
-│ ├── ParkingException.java
-│ ├── ParkingFullException.java
-│ └── InvalidVehicleException.java
+│   ├── ParkingException.java
+│   ├── ParkingFullException.java
+│   └── InvalidVehicleException.java
 │
 └── Main.java
+```
+
 
 
 ## ▶️ How to Run
